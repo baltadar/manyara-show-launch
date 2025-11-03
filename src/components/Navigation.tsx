@@ -28,10 +28,10 @@ const Navigation = () => {
             onClick={() => scrollToSection("home")}
             className="text-lg font-semibold tracking-tight hover:text-accent transition-colors"
           >
-            The Antony Manyara Show
+            Dr. Antony Manyara
           </button>
           <div className="hidden md:flex items-center gap-8">
-            {["about", "vision", "contact"].map((section) => (
+            {["about", "contact"].map((section) => (
               <button
                 key={section}
                 onClick={() => scrollToSection(section)}

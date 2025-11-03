@@ -18,9 +18,6 @@ const Hero = () => {
               <p className="text-xl text-muted-foreground">
                 Hosted by Dr. Hon. Antony Manyara, HSC
               </p>
-              <p className="text-lg text-muted-foreground font-light">
-                Visionary Youth Leader for Kenya's Transformation
-              </p>
             </div>
             <div className="space-y-4 pt-4">
               <h2 className="text-2xl lg:text-3xl font-semibold">Coming Soon</h2>
