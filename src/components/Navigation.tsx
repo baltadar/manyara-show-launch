@@ -1,5 +1,4 @@
 import { useState, useEffect } from "react";
-import { Button } from "@/components/ui/button";
 
 const Navigation = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -29,16 +28,16 @@ const Navigation = () => {
             onClick={() => scrollToSection("home")}
             className="text-lg font-semibold tracking-tight hover:text-accent transition-colors"
           >
-            Dr. Antony Manyara
+            The Antony Manyara Show
           </button>
           <div className="hidden md:flex items-center gap-8">
-            {["about", "vision", "leadership", "media", "contact"].map((section) => (
+            {["about", "vision", "contact"].map((section) => (
               <button
                 key={section}
                 onClick={() => scrollToSection(section)}
                 className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors capitalize"
               >
-                {section}
+                {section === "contact" ? "Stay Connected" : section}
               </button>
             ))}
           </div>

@@ -6,11 +6,11 @@ const Vision = () => {
           <h2 className="text-4xl font-bold mb-8">Vision</h2>
           <div className="space-y-6">
             <p className="text-2xl font-semibold leading-relaxed">
-              A Kenya where leadership is accountable, youth are empowered, and progress is shared
-              by all.
+              To create a platform where ideas inspire action and conversations spark change.
             </p>
-            <p className="text-lg text-muted-foreground">
-              Driven by integrity, service, and innovation.
+            <p className="text-lg text-muted-foreground leading-relaxed">
+              The Antony Manyara Show highlights authentic African voices leading transformation
+              from the ground up.
             </p>
           </div>
         </div>
