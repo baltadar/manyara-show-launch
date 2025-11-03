@@ -28,7 +28,7 @@ const Navigation = () => {
             onClick={() => scrollToSection("home")}
             className="text-lg font-semibold tracking-tight hover:text-accent transition-colors"
           >
-            Dr. Antony Manyara
+            Home
           </button>
           <div className="hidden md:flex items-center gap-8">
             {["about", "contact"].map((section) => (
